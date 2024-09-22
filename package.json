@@ -1,0 +1,21 @@
+{
+  "name": "role-aleatorio",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env --import=tsx --watch ./src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.11",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "role-aleatorio": "file:",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
